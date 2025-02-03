@@ -1,0 +1,30 @@
+<div class="calculator">
+  <div class="prev"> {{prev}} {{op}} </div>
+  <div class="current"> {{current}} </div>
+  <div class="buttons">
+    <button (click)="operator('%')"> % </button>
+    <button (click)="clear()">C</button>
+    <button (click)="clearEntry()">CE</button>
+    <button (click)="backspace()"> ⮐ </button>
+    <button (click)="operator('x²')">x²</button>
+    <button (click)="operator('x³')">x³</button>
+    <button (click)="operator('√')">√</button>
+    <button (click)="operator('/')"> ÷ </button>
+    <button (click)="digit('7')"> 7 </button>
+    <button (click)="digit('8')"> 8 </button>
+    <button (click)="digit('9')"> 9 </button>
+    <button (click)="operator('x')"> x </button>
+    <button (click)="digit('4')"> 4 </button>
+    <button (click)="digit('5')"> 5 </button>
+    <button (click)="digit('6')"> 6 </button>
+    <button (click)="operator('-')"> - </button>
+    <button (click)="digit('1')"> 1 </button>
+    <button (click)="digit('2')"> 2 </button>
+    <button (click)="digit('3')"> 3 </button>
+    <button (click)="operator('+')"> + </button>
+    <button (click)="PosNeg()"> +/- </button>
+    <button (click)="digit('0')"> 0 </button>
+    <button (click)="dot('.')"> .</button>
+    <button (click)="equal()"> = </button>
+  </div>
+</div>

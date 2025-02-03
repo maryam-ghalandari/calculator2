@@ -1,0 +1,38 @@
+:host {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 30rem;
+  background-color: purple;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+
+.prev {
+  padding: 1rem;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.current {
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  background-color: rgb(250, 231, 234);
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  width: 25%;
+  height: 3rem;
+}
